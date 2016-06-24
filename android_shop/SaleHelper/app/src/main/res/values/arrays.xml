@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="vipLevelList">
+        <item>VIP One</item>
+        <item>VIP Two</item>
+        <item>VIP Three</item>
+        <item>VIP Four</item>
+        <item>VIP Five</item>
+        <item>VIP Six</item>
+    </string-array>
+
+    <string-array name="vipMoneyList">
+        <item>100元</item>
+        <item>200元</item>
+        <item>300元</item>
+        <item>400元</item>
+        <item>500元</item>
+        <item>600元</item>
+    </string-array>
+
+    <integer-array name="vipColorList">
+        <item>@color/vip_one</item>
+        <item>@color/vip_two</item>
+        <item>@color/vip_three</item>
+        <item>@color/vip_four</item>
+        <item>@color/vip_five</item>
+        <item>@color/vip_six</item>
+    </integer-array>
+
+    <integer-array name="google_colors">
+        <item>@color/google_red</item>
+        <item>@color/google_blue</item>
+        <item>@color/google_yellow</item>
+        <item>@color/google_green</item>
+    </integer-array>
+
+</resources>

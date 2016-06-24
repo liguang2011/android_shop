@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:padding="@dimen/title_padding"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/back_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/viperBtnBack"
+            android:drawablePadding="@dimen/title_padding"
+            android:background="@drawable/color_back"
+            android:drawableLeft="@drawable/tb_icon_actionbar_back" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <ListView
+        android:id="@+id/viperList"
+        android:divider="@color/grey2"
+        android:dividerHeight="1px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

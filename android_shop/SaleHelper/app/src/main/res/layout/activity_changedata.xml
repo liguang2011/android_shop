@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:padding="@dimen/title_padding"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/back_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/changeDataBackString"
+            android:drawablePadding="@dimen/title_padding"
+            android:background="@drawable/color_back"
+            android:drawableLeft="@drawable/tb_icon_actionbar_back" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <EditText
+        android:layout_margin="@dimen/login_out"
+        android:id="@+id/etChangeData"
+        android:singleLine="true"
+        android:inputType="text"
+        android:textSize="@dimen/login_text_size"
+        android:padding="@dimen/login_dp"
+        android:hint="@string/changeDataHint"
+        android:drawablePadding="@dimen/login_dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/booking_channel_picker_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/btnChangeData"
+        android:gravity="center"
+        android:padding="@dimen/login_dp"
+        android:background="@drawable/color_login"
+        android:text="@string/changeDataFinish"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_text_size"
+        android:layout_marginLeft="@dimen/login_out"
+        android:layout_marginRight="@dimen/login_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

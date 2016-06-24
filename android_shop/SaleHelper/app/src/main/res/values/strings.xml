@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SaleHelper</string>
+    <string name="action_settings">Settings</string>
+    <!--导航栏字符串-->
+    <string name="guideStringHome">首页</string>
+    <string name="guideStringFound">发现</string>
+    <string name="guideStringCar">购物车</string>
+    <string name="guideStringUser">我的账户</string>
+    <string name="loginActionBarBack">账户登录</string>
+    <string name="registerActionBarBack">注册返回</string>
+    <!-- 账户页面字符串-->
+    <string name="settingVip">办理会员</string>
+    <string name="settingPassword">修改密码</string>
+    <string name="settingPickName">修改昵称</string>
+    <string name="listViewHead">我的订单</string>
+    <string name="settingAddress">修改地址</string>
+    <string name="settingCard">修改银行卡</string>
+    <string name="settingMoney">充值</string>
+    <!--登陆字符串-->
+    <string name="loginUserHint">用户名</string>
+    <string name="loginPasswordHint">密码</string>
+    <string name="loginLogin">登陆</string>
+    <string name="loginRegister">注册</string>
+
+    <!--注册字符串-->
+    <string name="registerAddressHint">地址</string>
+    <string name="registerBankCardHint">银行卡</string>
+    <!--Title字符串-->
+    <string name="titleHome">首页</string>
+    <string name="titleFound">发现</string>
+    <string name="titleCar">购物车</string>
+    <string name="titleUser">账户</string>
+    <!--首页相关字符串-->
+    <string name="homeSearch">商品名</string>
+
+    <!-- Toast字符串 -->
+    <string name="loginFail">登录失败</string>
+    <string name="registerFail">注册失败</string>
+    <string name="registerSuccess">注册成功</string>
+    <string name="changeSuccess">修改成功</string>
+    <string name="changeFailed">修改失败</string>
+    <string name="vipSetSuccess">开通成功！</string>
+    <string name="vipSetFailed">开通失败！</string>
+    <string name="vipNoMoney">余额不足</string>
+    <string name="getFail">获取失败</string>
+    <string name="getSuccess">获取成功</string>
+    <string name="buySuccess">购买成功</string>
+    <string name="buyFail">购买失败</string>
+    <string name="putSuccess">放入成功</string>
+    <string name="putFail">放入失败</string>
+    <string name="clearSuccess">结算成功</string>
+    <string name="clearFail">结算失败</string>
+    <string name="deleteSuccess">删除成功</string>
+    <string name="deleteFail">删除失败</string>
+
+    <!-- 修改界面字符串 -->
+    <string name="changeDataBackString">返回</string>
+    <string name="changeDataHint">填写修改</string>
+    <string name="changeDataFinish">完成</string>
+
+    <!-- viper界面字符串 -->
+    <string name="viperBtnBack">返回</string>
+
+    <!--商品详情界面字符串-->
+    <string name="productBackString">返回</string>
+    <string name="productIntr">商品详情</string>
+    <string name="productMoney">商品价格</string>
+    <string name="putInCar">加入购物车</string>
+    <string name="buy">直接购买</string>
+
+    <!--购物车界面 -->
+    <string name="btnClear">结算</string>
+
+    <!--删除 -->
+    <string name="delete">删除</string>
+</resources>

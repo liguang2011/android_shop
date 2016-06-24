@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/btnRefresh"
+            android:gravity="center"
+            android:background="@drawable/color_login"
+            android:drawableRight="@drawable/map_change"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/titleFound" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/productItem"
+        android:divider="@color/grey2"
+        android:dividerHeight="1px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 绿色 -->
+    <color name="green">#45C01A</color>
+    <!-- 蓝色 -->
+    <color name="blue">#5EB4C8</color>
+    <!-- 黄色 -->
+    <color name="yellow">#DEC600</color>
+    <!-- 橘黄色 -->
+    <color name="orange">#ff5001</color>
+    <!--深橘黄色-->
+    <color name="orange_dark">#ff6633</color>
+    <!-- 紫色 -->
+    <color name="purple">#743EE8</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 灰色 -->
+    <color name="grey">#999999</color>
+    <!-- 浅灰色 -->
+    <color name="grey2">#F5F5F5</color>
+    <!-- 字体灰色-->
+    <color name="grey3">#768693</color>
+    <!-- 暖灰色 -->
+    <color name="grey_warm">#E0E0E0</color>
+    <!-- 背景灰色 -->
+    <color name="grey_back">#fff0f3f6</color>
+    <!--亮灰色-->
+    <color name="grey_light">#cccccc</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <!-- google颜色 -->
+    <color name="google_red">#FFC93437</color>
+    <color name="google_blue">#FF375BF1</color>
+    <color name="google_yellow">#FFF7D23E</color>
+    <color name="google_green">#FF34A350</color>
+
+    <!--深紫色-->
+    <color name="purple_dark">#3b073d</color>
+    <!-- VIP颜色 -->
+    <color name="vip_one">#e6e6e6</color>
+    <color name="vip_two">#e7b04d</color>
+    <color name="vip_three">#ce1a11</color>
+    <color name="vip_four">#d44cf8</color>
+    <color name="vip_five">#93008b</color>
+    <color name="vip_six">#5a0807</color>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--导航栏字体大小-->
+    <dimen name="guide_font_size">10sp</dimen>
+    <!--回退键字体大小-->
+    <dimen name="back_font_size">20sp</dimen>
+    <!--标题栏相关-->
+    <dimen name="title_height">45dp</dimen>
+    <dimen name="title_padding">5dp</dimen>
+    <!--账户页面相关-->
+    <dimen name="conn_size">20sp</dimen>
+    <dimen name="setting_size">15sp</dimen>
+    <dimen name="setButton_size">50dp</dimen>
+    <!--登陆距离-->
+    <dimen name="login_text_size">18sp</dimen>
+    <dimen name="login_dp">15dp</dimen>
+    <dimen name="login_out">20dp</dimen>
+    <!--首页相关-->
+    <dimen name="home_edit">5dp</dimen>
+    <!--商品详情界面相关-->
+    <dimen name="product_img_height">300dp</dimen>
+</resources>

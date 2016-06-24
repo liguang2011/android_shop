@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/orange">
+
+        <TextView
+            android:id="@+id/btnRefresh"
+            android:gravity="center"
+            android:background="@drawable/color_login"
+            android:drawableRight="@drawable/map_change"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/titleHome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:drawablePadding="@dimen/home_edit"
+            android:drawableLeft="@drawable/booking_channel_search_icon"
+            android:hint="@string/homeSearch"
+            android:textSize="25sp"
+            android:background="@drawable/bg_search_edit_selected"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/search"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/orange_dark"
+            android:text="搜索"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey" />
+
+    <ListView
+        android:id="@+id/productItem"
+        android:divider="@color/grey2"
+        android:dividerHeight="1px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
